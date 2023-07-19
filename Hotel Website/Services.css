@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    top: 45px;
+    display: flex;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 3px 6px;
+    padding: 5px;
+    background-color: rgb(211, 201, 201);
+}
+
+.box h1 {
+    text-align: center;
+}
+
+#services h1 {
+    text-align: center;
+    color: black;
+}
+
+#heading1 {
+    position: relative;
+    top: 75px;
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.box p {
+    color: black;
+    text-align: center;
+}

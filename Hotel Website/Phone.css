@@ -1,0 +1,50 @@
+.container-c {
+    flex-wrap: wrap;
+}
+
+.box-c img {
+    width: 125px;
+    margin: 5px;
+}
+
+#clients::before {
+    height: 360px;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    align-items: center;
+}
+
+#home::before {
+    height: 585px;
+}
+
+#navbar {
+    flex-direction: column;
+}
+
+ul {
+    margin: -10px -20px;
+    padding: 0px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#services {
+    position: relative;
+    top: 25px;
+}

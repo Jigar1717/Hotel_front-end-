@@ -1,0 +1,56 @@
+#contect {
+    position: relative;
+    top: 120px;
+}
+
+#contect::before {
+    position: absolute;
+    content: "";
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    background: url(https://media.istockphoto.com/photos/contact-us-support-service-and-information-connect-concept-females-picture-id1372134479?b=1&k=20&m=1372134479&s=170667a&w=0&h=esbm5bfET9f50ME66zl-43xeaos13fiXrUHlgtt70Mo=) no-repeat center center/cover;
+    top: -25px;
+}
+
+#hed3 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.container-f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 2px;
+}
+
+.box-f {
+    padding: 5px;
+}
+
+label {
+    color: white;
+}
+
+.btn1 {
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.btn1:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
